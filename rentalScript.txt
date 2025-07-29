@@ -1,0 +1,1353 @@
+db.rentals.insertMany([
+  {
+    "_id": 10000,
+    "cust_id": 132,
+    "movie_id": 1017,
+    "empl_id": 4,
+    "rental_date": "2020-05-22",
+    "return_date": "2020-05-26",
+    "rental_fee": 17.61
+  },
+  {
+    "_id": 10001,
+    "cust_id": 143,
+    "movie_id": 1044,
+    "empl_id": 2,
+    "rental_date": "2020-06-30",
+    "return_date": "2020-07-13",
+    "rental_fee": 6.28
+  },
+  {
+    "_id": 10002,
+    "cust_id": 107,
+    "movie_id": 1016,
+    "empl_id": 2,
+    "rental_date": "2020-07-14",
+    "return_date": "2020-07-21",
+    "rental_fee": 8.28
+  },
+  {
+    "_id": 10003,
+    "cust_id": 148,
+    "movie_id": 1003,
+    "empl_id": 2,
+    "rental_date": "2020-08-01",
+    "return_date": "2020-08-11",
+    "rental_fee": 4.71
+  },
+  {
+    "_id": 10004,
+    "cust_id": 109,
+    "movie_id": 1031,
+    "empl_id": 1,
+    "rental_date": "2020-09-09",
+    "return_date": "2020-09-21",
+    "rental_fee": 11.52
+  },
+  {
+    "_id": 10005,
+    "cust_id": 136,
+    "movie_id": 1012,
+    "empl_id": 7,
+    "rental_date": "2020-09-18",
+    "return_date": "2020-09-22",
+    "rental_fee": 3.76
+  },
+  {
+    "_id": 10006,
+    "cust_id": 145,
+    "movie_id": 1025,
+    "empl_id": 7,
+    "rental_date": "2020-10-16",
+    "return_date": "2020-10-26",
+    "rental_fee": 7.96
+  },
+  {
+    "_id": 10007,
+    "cust_id": 116,
+    "movie_id": 1003,
+    "empl_id": 7,
+    "rental_date": "2020-11-21",
+    "return_date": "2020-11-03",
+    "rental_fee": 15.07
+  },
+  {
+    "_id": 10008,
+    "cust_id": 136,
+    "movie_id": 1046,
+    "empl_id": 1,
+    "rental_date": "2020-12-12",
+    "return_date": "2020-12-24",
+    "rental_fee": 3.26
+  },
+  {
+    "_id": 10009,
+    "cust_id": 144,
+    "movie_id": 1009,
+    "empl_id": 4,
+    "rental_date": "2020-12-13",
+    "return_date": "2020-12-18",
+    "rental_fee": 9.2
+  },
+  {
+    "_id": 10010,
+    "cust_id": 101,
+    "movie_id": 1010,
+    "empl_id": 6,
+    "rental_date": "2020-12-24",
+    "return_date": "2021-01-03",
+    "rental_fee": 16.75
+  },
+  {
+    "_id": 10011,
+    "cust_id": 106,
+    "movie_id": 1020,
+    "empl_id": 3,
+    "rental_date": "2021-01-18",
+    "return_date": "2021-01-31",
+    "rental_fee": 9.27
+  },
+  {
+    "_id": 10012,
+    "cust_id": 146,
+    "movie_id": 1040,
+    "empl_id": 5,
+    "rental_date": "2021-01-20",
+    "return_date": "2021-01-28",
+    "rental_fee": 8.12
+  },
+  {
+    "_id": 10013,
+    "cust_id": 124,
+    "movie_id": 1042,
+    "empl_id": 4,
+    "rental_date": "2021-02-17",
+    "return_date": "2021-02-21",
+    "rental_fee": 6.22
+  },
+  {
+    "_id": 10014,
+    "cust_id": 113,
+    "movie_id": 1044,
+    "empl_id": 2,
+    "rental_date": "2021-02-20",
+    "return_date": "2021-02-25",
+    "rental_fee": 8.61
+  },
+  {
+    "_id": 10015,
+    "cust_id": 117,
+    "movie_id": 1046,
+    "empl_id": 4,
+    "rental_date": "2021-03-15",
+    "return_date": "2021-03-28",
+    "rental_fee": 3.01
+  },
+  {
+    "_id": 10016,
+    "cust_id": 126,
+    "movie_id": 1040,
+    "empl_id": 2,
+    "rental_date": "2021-04-10",
+    "return_date": "2021-04-22",
+    "rental_fee": 3.92
+  },
+  {
+    "_id": 10017,
+    "cust_id": 111,
+    "movie_id": 1018,
+    "empl_id": 2,
+    "rental_date": "2021-04-27",
+    "return_date": "2021-05-05",
+    "rental_fee": 10.13
+  },
+  {
+    "_id": 10018,
+    "cust_id": 131,
+    "movie_id": 1011,
+    "empl_id": 5,
+    "rental_date": "2021-05-18",
+    "return_date": "2021-05-20",
+    "rental_fee": 13.18
+  },
+  {
+    "_id": 10019,
+    "cust_id": 120,
+    "movie_id": 1004,
+    "empl_id": 1,
+    "rental_date": "2021-06-08",
+    "return_date": "2021-06-12",
+    "rental_fee": 6.49
+  },
+  {
+    "_id": 10020,
+    "cust_id": 144,
+    "movie_id": 1025,
+    "empl_id": 6,
+    "rental_date": "2021-06-30",
+    "return_date": "2021-07-02",
+    "rental_fee": 10.05
+  },
+  {
+    "_id": 10021,
+    "cust_id": 136,
+    "movie_id": 1027,
+    "empl_id": 2,
+    "rental_date": "2021-07-10",
+    "return_date": "2021-07-13",
+    "rental_fee": 12.96
+  },
+  {
+    "_id": 10022,
+    "cust_id": 116,
+    "movie_id": 1012,
+    "empl_id": 4,
+    "rental_date": "2021-07-24",
+    "return_date": "2021-07-25",
+    "rental_fee": 4.21
+  },
+  {
+    "_id": 10023,
+    "cust_id": 108,
+    "movie_id": 1004,
+    "empl_id": 7,
+    "rental_date": "2021-08-22",
+    "return_date": "2021-08-25",
+    "rental_fee": 8.34
+  },
+  {
+    "_id": 10024,
+    "cust_id": 105,
+    "movie_id": 1028,
+    "empl_id": 6,
+    "rental_date": "2021-08-30",
+    "return_date": "2021-08-07",
+    "rental_fee": 5.38
+  },
+  {
+    "_id": 10025,
+    "cust_id": 120,
+    "movie_id": 1031,
+    "empl_id": 4,
+    "rental_date": "2021-09-06",
+    "return_date": "2021-09-15",
+    "rental_fee": 11.36
+  },
+  {
+    "_id": 10026,
+    "cust_id": 120,
+    "movie_id": 1012,
+    "empl_id": 2,
+    "rental_date": "2021-09-17",
+    "return_date": "2021-09-30",
+    "rental_fee": 9.76
+  },
+  {
+    "_id": 10027,
+    "cust_id": 114,
+    "movie_id": 1014,
+    "empl_id": 7,
+    "rental_date": "2021-10-15",
+    "return_date": "2021-10-18",
+    "rental_fee": 10.17
+  },
+  {
+    "_id": 10028,
+    "cust_id": 115,
+    "movie_id": 1001,
+    "empl_id": 3,
+    "rental_date": "2021-10-26",
+    "return_date": "2021-11-09",
+    "rental_fee": 15.98
+  },
+  {
+    "_id": 10029,
+    "cust_id": 131,
+    "movie_id": 1049,
+    "empl_id": 6,
+    "rental_date": "2021-11-09",
+    "return_date": "2021-11-14",
+    "rental_fee": 13.47
+  },
+  {
+    "_id": 10030,
+    "cust_id": 145,
+    "movie_id": 1020,
+    "empl_id": 5,
+    "rental_date": "2021-12-04",
+    "return_date": "2021-12-10",
+    "rental_fee": 11.54
+  },
+  {
+    "_id": 10031,
+    "cust_id": 124,
+    "movie_id": 1003,
+    "empl_id": 5,
+    "rental_date": "2021-12-16",
+    "return_date": "2021-12-20",
+    "rental_fee": 11.43
+  },
+  {
+    "_id": 10032,
+    "cust_id": 147,
+    "movie_id": 1036,
+    "empl_id": 4,
+    "rental_date": "2021-12-19",
+    "return_date": "2021-12-21",
+    "rental_fee": 6.72
+  },
+  {
+    "_id": 10033,
+    "cust_id": 136,
+    "movie_id": 1047,
+    "empl_id": 4,
+    "rental_date": "2022-01-11",
+    "return_date": "2022-01-12",
+    "rental_fee": 18.95
+  },
+  {
+    "_id": 10034,
+    "cust_id": 108,
+    "movie_id": 1017,
+    "empl_id": 7,
+    "rental_date": "2022-01-19",
+    "return_date": "2022-01-29",
+    "rental_fee": 7.51
+  },
+  {
+    "_id": 10035,
+    "cust_id": 120,
+    "movie_id": 1027,
+    "empl_id": 3,
+    "rental_date": "2022-02-05",
+    "return_date": "2022-02-16",
+    "rental_fee": 16.31
+  },
+  {
+    "_id": 10036,
+    "cust_id": 103,
+    "movie_id": 1039,
+    "empl_id": 6,
+    "rental_date": "2022-02-20",
+    "return_date": "2022-02-23",
+    "rental_fee": 8.44
+  },
+  {
+    "_id": 10037,
+    "cust_id": 127,
+    "movie_id": 1039,
+    "empl_id": 2,
+    "rental_date": "2022-02-29",
+    "return_date": "2022-03-06",
+    "rental_fee": 13.38
+  },
+  {
+    "_id": 10038,
+    "cust_id": 138,
+    "movie_id": 1009,
+    "empl_id": 1,
+    "rental_date": "2022-03-16",
+    "return_date": "2022-03-22",
+    "rental_fee": 9.23
+  },
+  {
+    "_id": 10039,
+    "cust_id": 137,
+    "movie_id": 1022,
+    "empl_id": 5,
+    "rental_date": "2022-04-12",
+    "return_date": "2022-04-17",
+    "rental_fee": 14.57
+  },
+  {
+    "_id": 10040,
+    "cust_id": 136,
+    "movie_id": 1020,
+    "empl_id": 3,
+    "rental_date": "2022-04-17",
+    "return_date": "2022-04-19",
+    "rental_fee": 13.16
+  },
+  {
+    "_id": 10041,
+    "cust_id": 128,
+    "movie_id": 1026,
+    "empl_id": 3,
+    "rental_date": "2022-05-16",
+    "return_date": "2022-05-19",
+    "rental_fee": 16.09
+  },
+  {
+    "_id": 10042,
+    "cust_id": 143,
+    "movie_id": 1012,
+    "empl_id": 6,
+    "rental_date": "2022-05-18",
+    "return_date": "2022-05-21",
+    "rental_fee": 11.62
+  },
+  {
+    "_id": 10043,
+    "cust_id": 111,
+    "movie_id": 1044,
+    "empl_id": 3,
+    "rental_date": "2022-07-07",
+    "return_date": "2022-07-13",
+    "rental_fee": 15.70
+  },
+  {
+    "_id": 10044,
+    "cust_id": 135,
+    "movie_id": 1014,
+    "empl_id": 1,
+    "rental_date": "2022-07-19",
+    "return_date": "2022-07-23",
+    "rental_fee": 8.22
+  },
+  {
+    "_id": 10045,
+    "cust_id": 149,
+    "movie_id": 1012,
+    "empl_id": 1,
+    "rental_date": "2022-08-13",
+    "return_date": "2022-08-24",
+    "rental_fee": 13.34
+  },
+  {
+    "_id": 10046,
+    "cust_id": 109,
+    "movie_id": 1039,
+    "empl_id": 4,
+    "rental_date": "2022-09-08",
+    "return_date": "2022-09-12",
+    "rental_fee": 14.37
+  },
+  {
+    "_id": 10047,
+    "cust_id": 108,
+    "movie_id": 1044,
+    "empl_id": 5,
+    "rental_date": "2022-09-10",
+    "return_date": "2022-09-20",
+    "rental_fee": 3.68
+  },
+  {
+    "_id": 10048,
+    "cust_id": 120,
+    "movie_id": 1018,
+    "empl_id": 4,
+    "rental_date": "2022-09-12",
+    "return_date": "2022-09-14",
+    "rental_fee": 14.58
+  },
+  {
+    "_id": 10049,
+    "cust_id": 140,
+    "movie_id": 1034,
+    "empl_id": 1,
+    "rental_date": "2022-09-18",
+    "return_date": "2022-09-24",
+    "rental_fee": 5.45
+  },
+  {
+    "_id": 10050,
+    "cust_id": 133,
+    "movie_id": 1017,
+    "empl_id": 6,
+    "rental_date": "2022-09-18",
+    "return_date": null,
+    "rental_fee": 14.14
+  },
+  {
+    "_id": 10051,
+    "cust_id": 134,
+    "movie_id": 1049,
+    "empl_id": 4,
+    "rental_date": "2022-10-04",
+    "return_date": "2022-10-11",
+    "rental_fee": 14.40
+  },
+  {
+    "_id": 10052,
+    "cust_id": 143,
+    "movie_id": 1015,
+    "empl_id": 4,
+    "rental_date": "2022-10-09",
+    "return_date": null,
+    "rental_fee": 16.81
+  },
+  {
+    "_id": 10053,
+    "cust_id": 146,
+    "movie_id": 1002,
+    "empl_id": 4,
+    "rental_date": "2022-10-18",
+    "return_date": "2022-10-26",
+    "rental_fee": 4.61
+  },
+  {
+    "_id": 10054,
+    "cust_id": 121,
+    "movie_id": 1004,
+    "empl_id": 5,
+    "rental_date": "2022-11-12",
+    "return_date": "2022-11-22",
+    "rental_fee": 9.51
+  },
+  {
+    "_id": 10055,
+    "cust_id": 111,
+    "movie_id": 1045,
+    "empl_id": 7,
+    "rental_date": "2022-12-03",
+    "return_date": "2022-12-16",
+    "rental_fee": 18.35
+  },
+  {
+    "_id": 10056,
+    "cust_id": 110,
+    "movie_id": 1044,
+    "empl_id": 5,
+    "rental_date": "2022-12-04",
+    "return_date": "2022-12-06",
+    "rental_fee": 6.08
+  },
+  {
+    "_id": 10057,
+    "cust_id": 108,
+    "movie_id": 1032,
+    "empl_id": 6,
+    "rental_date": "2022-12-11",
+    "return_date": "2022-12-24",
+    "rental_fee": 18.27
+  },
+  {
+    "_id": 10058,
+    "cust_id": 132,
+    "movie_id": 1001,
+    "empl_id": 6,
+    "rental_date": "2022-12-23",
+    "return_date": "2022-12-02",
+    "rental_fee": 6.92
+  },
+  {
+    "_id": 10059,
+    "cust_id": 140,
+    "movie_id": 1007,
+    "empl_id": 3,
+    "rental_date": "2022-12-21",
+    "return_date": "2022-12-28",
+    "rental_fee": 17.67
+  },
+  {
+    "_id": 10060,
+    "cust_id": 106,
+    "movie_id": 1044,
+    "empl_id": 4,
+    "rental_date": "2022-12-20",
+    "return_date": "2022-12-28",
+    "rental_fee": 8.63
+  },
+  {
+    "_id": 10061,
+    "cust_id": 115,
+    "movie_id": 1010,
+    "empl_id": 6,
+    "rental_date": "2023-01-02",
+    "return_date": null,
+    "rental_fee": 13.62
+  },
+  {
+    "_id": 10062,
+    "cust_id": 115,
+    "movie_id": 1024,
+    "empl_id": 5,
+    "rental_date": "2023-01-09",
+    "return_date": "2025-01-12",
+    "rental_fee": 12.88
+  },
+  {
+    "_id": 10063,
+    "cust_id": 122,
+    "movie_id": 1049,
+    "empl_id": 1,
+    "rental_date": "2023-01-05",
+    "return_date": "2023-01-08",
+    "rental_fee": 16.29
+  },
+  {
+    "_id": 10064,
+    "cust_id": 119,
+    "movie_id": 1033,
+    "empl_id": 5,
+    "rental_date": "2023-02-21",
+    "return_date": "2023-02-27",
+    "rental_fee": 4.29
+  },
+  {
+    "_id": 10065,
+    "cust_id": 140,
+    "movie_id": 1022,
+    "empl_id": 2,
+    "rental_date": "2023-03-02",
+    "return_date": "2023-03-05",
+    "rental_fee": 14.23
+  },
+  {
+    "_id": 10066,
+    "cust_id": 147,
+    "movie_id": 1001,
+    "empl_id": 1,
+    "rental_date": "2023-03-17",
+    "return_date": "2023-03-20",
+    "rental_fee": 18.58
+  },
+  {
+    "_id": 10067,
+    "cust_id": 132,
+    "movie_id": 1035,
+    "empl_id": 2,
+    "rental_date": "2023-03-11",
+    "return_date": "2023-03-18",
+    "rental_fee": 18.86
+  },
+  {
+    "_id": 10068,
+    "cust_id": 145,
+    "movie_id": 1045,
+    "empl_id": 4,
+    "rental_date": "2023-03-24",
+    "return_date": "2023-04-07",
+    "rental_fee": 17.57
+  },
+  {
+    "_id": 10069,
+    "cust_id": 147,
+    "movie_id": 1024,
+    "empl_id": 4,
+    "rental_date": "2023-04-16",
+    "return_date": "2023-04-21",
+    "rental_fee": 4.45
+  },
+  {
+    "_id": 10070,
+    "cust_id": 108,
+    "movie_id": 1012,
+    "empl_id": 3,
+    "rental_date": "2023-04-17",
+    "return_date": "2023-04-26",
+    "rental_fee": 13.63
+  },
+  {
+    "_id": 10071,
+    "cust_id": 117,
+    "movie_id": 1020,
+    "empl_id": 7,
+    "rental_date": "2023-05-14",
+    "return_date": "2023-05-27",
+    "rental_fee": 10.13
+  },
+  {
+    "_id": 10072,
+    "cust_id": 131,
+    "movie_id": 1006,
+    "empl_id": 1,
+    "rental_date": "2023-07-10",
+    "return_date": "2023-07-21",
+    "rental_fee": 18.17
+  },
+  {
+    "_id": 10073,
+    "cust_id": 112,
+    "movie_id": 1022,
+    "empl_id": 5,
+    "rental_date": "2023-07-30",
+    "return_date": "2023-08-11",
+    "rental_fee": 16.64
+  },
+  {
+    "_id": 10074,
+    "cust_id": 106,
+    "movie_id": 1034,
+    "empl_id": 4,
+    "rental_date": "2023-08-20",
+    "return_date": "2023-08-27",
+    "rental_fee": 13.50
+  },
+  {
+    "_id": 10075,
+    "cust_id": 139,
+    "movie_id": 1011,
+    "empl_id": 2,
+    "rental_date": "2023-08-29",
+    "return_date": "2023-09-30",
+    "rental_fee": 3.30
+  },
+  {
+    "_id": 10076,
+    "cust_id": 129,
+    "movie_id": 1011,
+    "empl_id": 4,
+    "rental_date": "2023-09-01",
+    "return_date": "2023-09-07",
+    "rental_fee": 8.53
+  },
+  {
+    "_id": 10077,
+    "cust_id": 126,
+    "movie_id": 1042,
+    "empl_id": 6,
+    "rental_date": "2023-08-30",
+    "return_date": "2023-09-08",
+    "rental_fee": 17.20
+  },
+  {
+    "_id": 10078,
+    "cust_id": 139,
+    "movie_id": 1033,
+    "empl_id": 5,
+    "rental_date": "2023-09-16",
+    "return_date": "2023-09-21",
+    "rental_fee": 8.09
+  },
+  {
+    "_id": 10079,
+    "cust_id": 148,
+    "movie_id": 1035,
+    "empl_id": 5,
+    "rental_date": "2023-09-21",
+    "return_date": "2023-09-22",
+    "rental_fee": 13.96
+  },
+  {
+    "_id": 10080,
+    "cust_id": 134,
+    "movie_id": 1011,
+    "empl_id": 4,
+    "rental_date": "2023-09-17",
+    "return_date": "2023-09-28",
+    "rental_fee": 9.38
+  },
+  {
+    "_id": 10081,
+    "cust_id": 111,
+    "movie_id": 1038,
+    "empl_id": 3,
+    "rental_date": "2023-10-03",
+    "return_date": "2023-10-07",
+    "rental_fee": 5.89
+  },
+  {
+    "_id": 10082,
+    "cust_id": 110,
+    "movie_id": 1012,
+    "empl_id": 6,
+    "rental_date": "2023-10-08",
+    "return_date": "2023-10-18",
+    "rental_fee": 6.80
+  },
+  {
+    "_id": 10083,
+    "cust_id": 137,
+    "movie_id": 1031,
+    "empl_id": 5,
+    "rental_date": "2023-11-03",
+    "return_date": "2023-11-17",
+    "rental_fee": 6.50
+  },
+  {
+    "_id": 10084,
+    "cust_id": 136,
+    "movie_id": 1011,
+    "empl_id": 4,
+    "rental_date": "2023-11-12",
+    "return_date": "2023-11-13",
+    "rental_fee": 9.53
+  },
+  {
+    "_id": 10085,
+    "cust_id": 147,
+    "movie_id": 1040,
+    "empl_id": 5,
+    "rental_date": "2023-11-21",
+    "return_date": null,
+    "rental_fee": 11.63
+  },
+  {
+    "_id": 10086,
+    "cust_id": 145,
+    "movie_id": 1021,
+    "empl_id": 2,
+    "rental_date": "2023-12-06",
+    "return_date": "2023-12-10",
+    "rental_fee": 8.41
+  },
+  {
+    "_id": 10087,
+    "cust_id": 117,
+    "movie_id": 1003,
+    "empl_id": 4,
+    "rental_date": "2023-12-20",
+    "return_date": "2023-12-02",
+    "rental_fee": 15.78
+  },
+  {
+    "_id": 10088,
+    "cust_id": 103,
+    "movie_id": 1003,
+    "empl_id": 2,
+    "rental_date": "2023-12-19",
+    "return_date": "2023-12-24",
+    "rental_fee": 15.27
+  },
+  {
+    "_id": 10089,
+    "cust_id": 143,
+    "movie_id": 1048,
+    "empl_id": 6,
+    "rental_date": "2024-01-10",
+    "return_date": "2024-01-11",
+    "rental_fee": 7.63
+  },
+  {
+    "_id": 10090,
+    "cust_id": 131,
+    "movie_id": 1020,
+    "empl_id": 5,
+    "rental_date": "2024-01-11",
+    "return_date": "2024-01-22",
+    "rental_fee": 9.28
+  },
+  {
+    "_id": 10091,
+    "cust_id": 118,
+    "movie_id": 1020,
+    "empl_id": 5,
+    "rental_date": "2024-01-21",
+    "return_date": "2024-01-31",
+    "rental_fee": 11.50
+  },
+  {
+    "_id": 10092,
+    "cust_id": 108,
+    "movie_id": 1005,
+    "empl_id": 6,
+    "rental_date": "2024-01-22",
+    "return_date": "2024-01-24",
+    "rental_fee": 3.52
+  },
+  {
+    "_id": 10093,
+    "cust_id": 136,
+    "movie_id": 1013,
+    "empl_id": 3,
+    "rental_date": "2024-01-20",
+    "return_date": "2024-01-29",
+    "rental_fee": 15.08
+  },
+  {
+    "_id": 10094,
+    "cust_id": 137,
+    "movie_id": 1031,
+    "empl_id": 1,
+    "rental_date": "2024-01-28",
+    "return_date": "2024-02-03",
+    "rental_fee": 17.10
+  },
+  {
+    "_id": 10095,
+    "cust_id": 114,
+    "movie_id": 1006,
+    "empl_id": 3,
+    "rental_date": "2024-02-01",
+    "return_date": "2024-02-13",
+    "rental_fee": 13.44
+  },
+  {
+    "_id": 10096,
+    "cust_id": 120,
+    "movie_id": 1013,
+    "empl_id": 2,
+    "rental_date": "2024-02-29",
+    "return_date": "2024-03-06",
+    "rental_fee": 16.56
+  },
+  {
+    "_id": 10097,
+    "cust_id": 132,
+    "movie_id": 1027,
+    "empl_id": 1,
+    "rental_date": "2024-03-07",
+    "return_date": "2024-03-12",
+    "rental_fee": 8.97
+  },
+  {
+    "_id": 10098,
+    "cust_id": 101,
+    "movie_id": 1037,
+    "empl_id": 2,
+    "rental_date": "2024-03-22",
+    "return_date": null,
+    "rental_fee": 18.95
+  },
+  {
+    "_id": 10099,
+    "cust_id": 137,
+    "movie_id": 1019,
+    "empl_id": 5,
+    "rental_date": "2024-04-06",
+    "return_date": "2024-04-14",
+    "rental_fee": 5.05
+  },
+  {
+    "_id": 10100,
+    "cust_id": 145,
+    "movie_id": 1038,
+    "empl_id": 1,
+    "rental_date": "2024-04-28",
+    "return_date": null,
+    "rental_fee": 12.82
+  },
+  {
+    "_id": 10101,
+    "cust_id": 123,
+    "movie_id": 1044,
+    "empl_id": 1,
+    "rental_date": "2024-05-07",
+    "return_date": "2024-05-12",
+    "rental_fee": 5.83
+  },
+  {
+    "_id": 10102,
+    "cust_id": 124,
+    "movie_id": 1008,
+    "empl_id": 6,
+    "rental_date": "2024-05-15",
+    "return_date": "2024-05-24",
+    "rental_fee": 6.56
+  },
+  {
+    "_id": 10103,
+    "cust_id": 138,
+    "movie_id": 1013,
+    "empl_id": 2,
+    "rental_date": "2024-05-26",
+    "return_date": "2024-05-27",
+    "rental_fee": 12.30
+  },
+  {
+    "_id": 10104,
+    "cust_id": 137,
+    "movie_id": 1008,
+    "empl_id": 1,
+    "rental_date": "2024-05-23",
+    "return_date": "2024-06-03",
+    "rental_fee": 16.74
+  },
+  {
+    "_id": 10105,
+    "cust_id": 114,
+    "movie_id": 1034,
+    "empl_id": 2,
+    "rental_date": "2024-06-01",
+    "return_date": "2024-06-13",
+    "rental_fee": 7.50
+  },
+  {
+    "_id": 10106,
+    "cust_id": 114,
+    "movie_id": 1047,
+    "empl_id": 4,
+    "rental_date": "2024-06-12",
+    "return_date": "2024-06-15",
+    "rental_fee": 15.18
+  },
+  {
+    "_id": 10107,
+    "cust_id": 131,
+    "movie_id": 1012,
+    "empl_id": 4,
+    "rental_date": "2024-06-22",
+    "return_date": "2024-06-30",
+    "rental_fee": 8.68
+  },
+  {
+    "_id": 10108,
+    "cust_id": 136,
+    "movie_id": 1028,
+    "empl_id": 5,
+    "rental_date": "2024-07-10",
+    "return_date": "2024-07-20",
+    "rental_fee": 18.37
+  },
+  {
+    "_id": 10109,
+    "cust_id": 129,
+    "movie_id": 1026,
+    "empl_id": 1,
+    "rental_date": "2024-07-21",
+    "return_date": "2024-07-02",
+    "rental_fee": 18.26
+  },
+  {
+    "_id": 10110,
+    "cust_id": 114,
+    "movie_id": 1049,
+    "empl_id": 3,
+    "rental_date": "2024-07-18",
+    "return_date": "2024-07-25",
+    "rental_fee": 15.04
+  },
+  {
+    "_id": 10111,
+    "cust_id": 149,
+    "movie_id": 1010,
+    "empl_id": 7,
+    "rental_date": "2024-07-30",
+    "return_date": "2024-08-01",
+    "rental_fee": 5.28
+  },
+  {
+    "_id": 10112,
+    "cust_id": 147,
+    "movie_id": 1015,
+    "empl_id": 4,
+    "rental_date": "2024-08-21",
+    "return_date": "2024-09-02",
+    "rental_fee": 6.43
+  },
+  {
+    "_id": 10113,
+    "cust_id": 101,
+    "movie_id": 1009,
+    "empl_id": 4,
+    "rental_date": "2024-09-03",
+    "return_date": "2024-09-13",
+    "rental_fee": 9.76
+  },
+  {
+    "_id": 10114,
+    "cust_id": 123,
+    "movie_id": 1041,
+    "empl_id": 5,
+    "rental_date": "2024-09-03",
+    "return_date": "2024-09-12",
+    "rental_fee": 18.87
+  },
+  {
+    "_id": 10115,
+    "cust_id": 127,
+    "movie_id": 1043,
+    "empl_id": 7,
+    "rental_date": "2024-09-15",
+    "return_date": "2024-09-22",
+    "rental_fee": 10.80
+  },
+  {
+    "_id": 10116,
+    "cust_id": 144,
+    "movie_id": 1046,
+    "empl_id": 7,
+    "rental_date": "2024-09-13",
+    "return_date": "2024-09-23",
+    "rental_fee": 5.86
+  },
+  {
+    "_id": 10117,
+    "cust_id": 133,
+    "movie_id": 1044,
+    "empl_id": 5,
+    "rental_date": "2024-09-14",
+    "return_date": "2024-09-17",
+    "rental_fee": 9.47
+  },
+  {
+    "_id": 10118,
+    "cust_id": 108,
+    "movie_id": 1035,
+    "empl_id": 3,
+    "rental_date": "2024-10-01",
+    "return_date": "2024-10-07",
+    "rental_fee": 18.70
+  },
+  {
+    "_id": 10119,
+    "cust_id": 131,
+    "movie_id": 1013,
+    "empl_id": 1,
+    "rental_date": "2024-10-09",
+    "return_date": null,
+    "rental_fee": 16.01
+  },
+  {
+    "_id": 10120,
+    "cust_id": 118,
+    "movie_id": 1035,
+    "empl_id": 1,
+    "rental_date": "2024-10-22",
+    "return_date": "2025-10-30",
+    "rental_fee": 3.94
+  },
+  {
+    "_id": 10121,
+    "cust_id": 146,
+    "movie_id": 1038,
+    "empl_id": 3,
+    "rental_date": "2024-10-25",
+    "return_date": "2024-11-01",
+    "rental_fee": 13.33
+  },
+  {
+    "_id": 10122,
+    "cust_id": 105,
+    "movie_id": 1001,
+    "empl_id": 6,
+    "rental_date": "2024-11-14",
+    "return_date": "2024-11-18",
+    "rental_fee": 7.06
+  },
+  {
+    "_id": 10123,
+    "cust_id": 135,
+    "movie_id": 1032,
+    "empl_id": 5,
+    "rental_date": "2024-11-23",
+    "return_date": null,
+    "rental_fee": 5.47
+  },
+  {
+    "_id": 10124,
+    "cust_id": 124,
+    "movie_id": 1034,
+    "empl_id": 6,
+    "rental_date": "2024-11-27",
+    "return_date": "2024-12-07",
+    "rental_fee": 12.89
+  },
+  {
+    "_id": 10125,
+    "cust_id": 103,
+    "movie_id": 1046,
+    "empl_id": 4,
+    "rental_date": "2024-12-15",
+    "return_date": "2024-12-17",
+    "rental_fee": 15.70
+  },
+  {
+    "_id": 10126,
+    "cust_id": 119,
+    "movie_id": 1003,
+    "empl_id": 7,
+    "rental_date": "2025-01-02",
+    "return_date": "2025-01-03",
+    "rental_fee": 14.78
+  },
+  {
+    "_id": 10127,
+    "cust_id": 101,
+    "movie_id": 1013,
+    "empl_id": 3,
+    "rental_date": "2025-01-10",
+    "return_date": "2025-01-12",
+    "rental_fee": 14.92
+  },
+  {
+    "_id": 10128,
+    "cust_id": 144,
+    "movie_id": 1026,
+    "empl_id": 6,
+    "rental_date": "2025-01-08",
+    "return_date": "2025-01-17",
+    "rental_fee": 8.03
+  },
+  {
+    "_id": 10129,
+    "cust_id": 115,
+    "movie_id": 1040,
+    "empl_id": 3,
+    "rental_date": "2025-01-18",
+    "return_date": "2025-01-25",
+    "rental_fee": 16.59
+  },
+  {
+    "_id": 10130,
+    "cust_id": 122,
+    "movie_id": 1001,
+    "empl_id": 7,
+    "rental_date": "2025-01-21",
+    "return_date": null,
+    "rental_fee": 10.32
+  },
+  {
+    "_id": 10131,
+    "cust_id": 117,
+    "movie_id": 1012,
+    "empl_id": 1,
+    "rental_date": "2025-01-20",
+    "return_date": "2025-01-21",
+    "rental_fee": 12.84
+  },
+  {
+    "_id": 10132,
+    "cust_id": 117,
+    "movie_id": 1010,
+    "empl_id": 6,
+    "rental_date": "2025-01-17",
+    "return_date": "2025-01-20",
+    "rental_fee": 5.87
+  },
+  {
+    "_id": 10133,
+    "cust_id": 133,
+    "movie_id": 1024,
+    "empl_id": 5,
+    "rental_date": "2025-01-28",
+    "return_date": "2025-02-05",
+    "rental_fee": 5.01
+  },
+  {
+    "_id": 10134,
+    "cust_id": 102,
+    "movie_id": 1006,
+    "empl_id": 7,
+    "rental_date": "2025-02-13",
+    "return_date": "2025-02-16",
+    "rental_fee": 8.01
+  },
+  {
+    "_id": 10135,
+    "cust_id": 121,
+    "movie_id": 1003,
+    "empl_id": 6,
+    "rental_date": "2025-03-02",
+    "return_date": "2025-03-16",
+    "rental_fee": 11.23
+  },
+  {
+    "_id": 10136,
+    "cust_id": 145,
+    "movie_id": 1004,
+    "empl_id": 5,
+    "rental_date": "2025-03-20",
+    "return_date": "2025-03-29",
+    "rental_fee": 3.70
+  },
+  {
+    "_id": 10137,
+    "cust_id": 130,
+    "movie_id": 1019,
+    "empl_id": 3,
+    "rental_date": "2025-04-11",
+    "return_date": "2025-04-21",
+    "rental_fee": 4.37
+  },
+  {
+    "_id": 10138,
+    "cust_id": 127,
+    "movie_id": 1002,
+    "empl_id": 7,
+    "rental_date": "2025-04-12",
+    "return_date": "2025-04-15",
+    "rental_fee": 3.96
+  },
+  {
+    "_id": 10139,
+    "cust_id": 127,
+    "movie_id": 1043,
+    "empl_id": 7,
+    "rental_date": "2025-05-07",
+    "return_date": "2025-05-13",
+    "rental_fee": 12.25
+  },
+  {
+    "_id": 10140,
+    "cust_id": 104,
+    "movie_id": 1023,
+    "empl_id": 5,
+    "rental_date": "2025-05-06",
+    "return_date": "2025-05-14",
+    "rental_fee": 11.61
+  },
+  {
+    "_id": 10141,
+    "cust_id": 133,
+    "movie_id": 1013,
+    "empl_id": 3,
+    "rental_date": "2025-05-18",
+    "return_date": "2025-06-01",
+    "rental_fee": 11.88
+  },
+  {
+    "_id": 10142,
+    "cust_id": 118,
+    "movie_id": 1038,
+    "empl_id": 4,
+    "rental_date": "2025-06-09",
+    "return_date": "2025-06-19",
+    "rental_fee": 4.66
+  },
+  {
+    "_id": 10143,
+    "cust_id": 103,
+    "movie_id": 1033,
+    "empl_id": 6,
+    "rental_date": "2025-06-16",
+    "return_date": "2025-06-17",
+    "rental_fee": 10.71
+  },
+  {
+    "_id": 10144,
+    "cust_id": 113,
+    "movie_id": 1014,
+    "empl_id": 5,
+    "rental_date": "2025-06-12",
+    "return_date": "2025-06-18",
+    "rental_fee": 13.93
+  },
+  {
+    "_id": 10145,
+    "cust_id": 141,
+    "movie_id": 1033,
+    "empl_id": 5,
+    "rental_date": "2025-07-04",
+    "return_date": "2025-07-13",
+    "rental_fee": 9.85
+  },
+  {
+    "_id": 10146,
+    "cust_id": 143,
+    "movie_id": 1041,
+    "empl_id": 2,
+    "rental_date": "2025-07-16",
+    "return_date": "2025-07-19",
+    "rental_fee": 15.94
+  },
+  {
+    "_id": 10147,
+    "cust_id": 129,
+    "movie_id": 1042,
+    "empl_id": 6,
+    "rental_date": "2025-07-11",
+    "return_date": "2025-07-20",
+    "rental_fee": 7.50
+  },
+  {
+    "_id": 10148,
+    "cust_id": 143,
+    "movie_id": 1003,
+    "empl_id": 4,
+    "rental_date": "2025-07-21",
+    "return_date": null,
+    "rental_fee": 12.87
+  },
+  {
+    "_id": 10149,
+    "cust_id": 137,
+    "movie_id": 1034,
+    "empl_id": 6,
+    "rental_date": "2025-07-24",
+    "return_date": "2025-07-26",
+    "rental_fee": 16.89
+  }
+])
+

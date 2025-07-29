@@ -1,0 +1,140 @@
+db.employees.insertMany([
+  {
+    _id: 1,
+    first_name: "Sandra",
+    last_name: "Hughes",
+    role: "Manager",
+    employment_type: "Full-Time",
+    email: "sandra.hughes@rentalco.com",
+    date_of_birth: "1980-04-15",
+    address:{
+ 	street: "105 Prattley Blvd",
+	city: "Toronto",
+	province: "ON",
+	postal_code: "M2J 4F5"
+   },
+    salary: 75000,
+    weekly_hours: 40
+  },
+  {
+    _id: 2,
+    first_name: "Gregory",
+    last_name: "Lee",
+    role: "Associate",
+    employment_type: "Full-Time",
+    email: "gregory.lee@rentalco.com",
+    date_of_birth: "1988-11-22",
+    address:{
+ 	street: "27 Nymark Ave",
+	city: "Toronto",
+	province: "ON",
+	postal_code: "M2J 1V2"
+   },
+    salary: 42000,
+    weekly_hours: 40
+  },
+  {
+    _id: 3,
+    first_name: "Victoria",
+    last_name: "Nguyen",
+    role: "Director",
+    employment_type: "Full-Time",
+    email: "victoria.nguyen@rentalco.com",
+    date_of_birth: "1972-02-05",
+    address:{
+ 	street: "27 Lescon Rd",
+	city: "Toronto",
+	province: "ON",
+	postal_code: "M2J 9R9"
+   },
+    salary: 95000,
+    weekly_hours: 45
+  },
+  {
+    _id: 4,
+    first_name: "Mark",
+    last_name: "Wells",
+    role: "Associate",
+    employment_type: "Full-Time",
+    email: "mark.wells@rentalco.com",
+    date_of_birth: "1990-08-30",
+    address:{
+ 	street: "125 Don Mills Rd",
+	city: "Toronto",
+	province: "ON",
+	postal_code: "M2J 7Y8"
+   },
+    salary: 42000,
+    weekly_hours: 40
+  },
+  {
+    _id: 5,
+    first_name: "Alicia",
+    last_name: "Green",
+    role: "Associate",
+    employment_type: "Full-Time",
+    email: "alicia.green@rentalco.com",
+    date_of_birth: "1994-03-19",
+    address:{
+ 	street: "1500 Sheppard St East",
+	city: "Toronto",
+	province: "ON",
+	postal_code: "M4D 1R6"
+   },
+    salary: 42000,
+    weekly_hours: 40
+  },
+  {
+    _id: 6,
+    first_name: "Derek",
+    last_name: "Chen",
+    role: "Associate",
+    employment_type: "Part-Time",
+    email: "derek.chen@rentalco.com",
+    date_of_birth: "2000-07-14",
+    address:{
+ 	street: "45 Leith Hill Rd",
+	city: "Toronto",
+	province: "ON",
+	postal_code: "M2J 1X5"
+   },
+    salary: 25000,
+    weekly_hours: 20
+  },
+  {
+    _id: 7,
+    first_name: "Natalie",
+    last_name: "Baker",
+    role: "Employee",
+    employment_type: "Part-Time",
+    email: "natalie.baker@rentalco.com",
+    date_of_birth: "1999-01-08",
+    address:{
+ 	street: "105 Leslie St",
+	city: "Toronto",
+	province: "ON",
+	postal_code: "M2J 1C9"
+   },
+    salary: 25000,
+    weekly_hours: 20
+  },
+  {
+    _id: 8,
+    first_name: "Omar",
+    last_name: "Ali",
+    role: "Employee",
+    employment_type: "Part-Time",
+    email: "omar.ali@rentalco.com",
+    date_of_birth: "1997-05-26",
+    address:{
+ 	street: "20 Godstone Rd",
+	city: "Toronto",
+	province: "ON",
+	postal_code: "M2J 3C5"
+   },
+    salary: 25000,
+    weekly_hours: 20
+  }
+]);
+
+

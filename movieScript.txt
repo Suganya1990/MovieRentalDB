@@ -1,0 +1,1825 @@
+db.movie.insertMany([
+  {
+    "_id": 1001,
+    "title": "Center word school",
+    "genre": [
+      "Sport"
+    ],
+    "release_year": 2019,
+    "cast": [
+      {
+        "actor": "Stacy Fisher",
+        "character": "Glenn",
+        "awards": []
+      },
+      {
+        "actor": "Sheila Hamilton",
+        "character": "David",
+        "awards": [
+          "Emmy",
+          "BAFTA"
+        ]
+      },
+      {
+        "actor": "John Houston",
+        "character": "Sonya",
+        "awards": [
+          "Golden Globe",
+          "BAFTA"
+        ]
+      }
+    ],
+    "director": "Nicholas Edwards",
+    "duration": 128,
+    "language": "French",
+    "rating": { IMDb: 8.8 },
+    "copies": 5,
+    "available": 4
+  },
+  {
+    "_id": 1002,
+    "title": "Even",
+    "genre": [
+      "Family",
+      "Sport"
+    ],
+    "release_year": 1977,
+    "cast": [
+      {
+        "actor": "Kendra Vang",
+        "character": "Harry",
+        "awards": [
+          "None"
+        ]
+      },
+      {
+        "actor": "Thomas Allen",
+        "character": "Glenn",
+        "awards": []
+      },
+      {
+        "actor": "Adrienne Ward",
+        "character": "Tiffany",
+        "awards": [
+          "Oscar",
+          "Emmy"
+        ]
+      }
+    ],
+    "director": "Rhonda Johnson",
+    "duration": 163,
+    "language": "English",
+    "rating": "Rotten Tomatoes",
+    "copies": 6,
+    "available": 6
+  },
+  {
+    "_id": 1003,
+    "title": "Suffer then",
+    "genre": [
+      "Thriller",
+      "Romance",
+      "Sci-Fi"
+    ],
+    "release_year": 2021,
+    "cast": [
+      {
+        "actor": "Christopher Brown",
+        "character": "Michael",
+        "awards": [
+          "None"
+        ]
+      },
+      {
+        "actor": "Aaron Tyler",
+        "character": "Steven",
+        "awards": []
+      },
+      {
+        "actor": "Paul Hamilton",
+        "character": "Tanya",
+        "awards": [
+          "None"
+        ]
+      },
+      {
+        "actor": "Jennifer Key",
+        "character": "Holly",
+        "awards": [
+          "Emmy",
+          "BAFTA"
+        ]
+      }
+    ],
+    "director": "Laura Banks",
+    "duration": 134,
+    "language": "French",
+    "rating": "Rotten Tomatoes",
+    "copies": 4,
+    "available": 3
+  },
+  {
+    "_id": 1004,
+    "title": "Here its foreign",
+    "genre": [
+      "Documentary",
+      "Drama",
+      "Animation"
+    ],
+    "release_year": 1995,
+    "cast": [
+      {
+        "actor": "Kayla Snow",
+        "character": "Michelle",
+        "awards": []
+      },
+      {
+        "actor": "Steven Gonzalez",
+        "character": "Anthony",
+        "awards": [
+          "BAFTA",
+          "BAFTA"
+        ]
+      },
+      {
+        "actor": "Michael Little",
+        "character": "Christine",
+        "awards": [
+          "Oscar"
+        ]
+      }
+    ],
+    "director": "David Munoz",
+    "duration": 170,
+    "language": "French",
+    "rating": "Rotten Tomatoes",
+    "copies": 4,
+    "available": 4
+  },
+  {
+    "_id": 1005,
+    "title": "Soon recent",
+    "genre": [
+      "Music"
+    ],
+    "release_year": 2012,
+    "cast": [
+      {
+        "actor": "James Taylor",
+        "character": "Jessica",
+        "awards": [
+          "Emmy"
+        ]
+      },
+      {
+        "actor": "Matthew Anderson",
+        "character": "Kelly",
+        "awards": []
+      }
+    ],
+    "director": "Ryan Martinez",
+    "duration": 99,
+    "language": "French",
+    "rating": { IMDb: 8.2 },
+   "copies": 6,
+    "available": 6
+  },
+  {
+    "_id": 1006,
+    "title": "Decision study your tax",
+    "genre": [
+      "Family",
+      "Biography",
+      "Western"
+    ],
+    "release_year": 2010,
+    "cast": [
+      {
+        "actor": "Matthew Hart",
+        "character": "Nicole",
+        "awards": [
+          "Oscar"
+        ]
+      },
+      {
+        "actor": "Elizabeth Sullivan",
+        "character": "Zachary",
+        "awards": []
+      }
+    ],
+    "director": "Taylor Baird",
+    "duration": 136,
+    "language": "French",
+    "rating": { IMDb: 9.1 },
+   "copies": 5,
+    "available": 5
+  },
+  {
+    "_id": 1007,
+    "title": "Imagine traditional",
+    "genre": [
+      "Horror",
+      "Comedy"
+    ],
+    "release_year": 2002,
+    "cast": [
+      {
+        "actor": "Robert Davis",
+        "character": "Brian",
+        "awards": [
+          "None",
+          "Golden Globe"
+        ]
+      },
+      {
+        "actor": "Mario Villegas",
+        "character": "Bianca",
+        "awards": [
+          "Emmy"
+        ]
+      }
+    ],
+    "director": "Ashley Graves",
+    "duration": 90,
+    "language": "French",
+    "rating": "Rotten Tomatoes",
+   "copies": 4,
+    "available": 4
+  },
+  {
+    "_id": 1008,
+    "title": "Success our general",
+    "genre": [
+      "Adventure",
+      "Horror",
+      "Western"
+    ],
+    "release_year": 1997,
+    "cast": [
+      {
+        "actor": "Brenda Anderson",
+        "character": "Courtney",
+        "awards": [
+          "Oscar"
+        ]
+      },
+      {
+        "actor": "Harold Salas",
+        "character": "Jason",
+        "awards": []
+      },
+      {
+        "actor": "Thomas Osborn",
+        "character": "Wayne",
+        "awards": [
+          "Oscar",
+          "Oscar"
+        ]
+      },
+      {
+        "actor": "Christopher Ingram",
+        "character": "Wesley",
+        "awards": []
+      }
+    ],
+    "director": "Timothy Willis",
+    "duration": 141,
+    "language": "Italian",
+    "rating": "Rotten Tomatoes",
+   "copies": 5,
+    "available": 5
+  },
+  {
+    "_id": 1009,
+    "title": "Rise oil quite",
+    "genre": [
+      "Musical",
+      "Family"
+    ],
+    "release_year": 1978,
+    "cast": [
+      {
+        "actor": "Billy Jones",
+        "character": "Mark",
+        "awards": [
+          "Emmy"
+        ]
+      },
+      {
+        "actor": "Ronald Bennett",
+        "character": "Diane",
+        "awards": [
+          "None"
+        ]
+      },
+      {
+        "actor": "Sarah Ray",
+        "character": "Daniel",
+        "awards": [
+          "None"
+        ]
+      }
+    ],
+    "director": "Nancy West",
+    "duration": 157,
+    "language": "English",
+    "rating": { IMDb: 8.5 },
+   "copies": 4,
+    "available": 4
+  },
+  {
+    "_id": 1010,
+    "title": "Alone rise",
+    "genre": [
+      "Family",
+      "Mystery"
+    ],
+    "release_year": 2013,
+    "cast": [
+      {
+        "actor": "Julie Carroll",
+        "character": "Jennifer",
+        "awards": [
+          "Emmy"
+        ]
+      },
+      {
+        "actor": "Anthony Wilson",
+        "character": "Felicia",
+        "awards": [
+          "Golden Globe",
+          "None"
+        ]
+      }
+    ],
+    "director": "Joshua Salas",
+    "duration": 102,
+    "language": "Italian",
+    "rating": { IMDb: 8.0 },
+   "copies": 2,
+    "available": 1
+  },
+  {
+    "_id": 1011,
+    "title": "Real choose man",
+    "genre": [
+      "History",
+      "Animation",
+      "Documentary"
+    ],
+    "release_year": 1996,
+    "cast": [
+      {
+        "actor": "Beth Carpenter",
+        "character": "Melissa",
+        "awards": []
+      },
+      {
+        "actor": "Allison Hahn",
+        "character": "Kenneth",
+        "awards": [
+          "None",
+          "Golden Globe"
+        ]
+      }
+    ],
+    "director": "Linda Moody",
+    "duration": 155,
+    "language": "Italian",
+    "rating": "Rotten Tomatoes",
+   "copies": 4,
+    "available": 4
+  },
+  {
+    "_id": 1012,
+    "title": "Beat summer go",
+    "genre": [
+      "History"
+    ],
+    "release_year": 2009,
+    "cast": [
+      {
+        "actor": "Johnathan Sanders",
+        "character": "Joseph",
+        "awards": [
+          "Golden Globe"
+        ]
+      },
+      {
+        "actor": "Nancy Adams",
+        "character": "Robert",
+        "awards": [
+          "BAFTA",
+          "None"
+        ]
+      },
+      {
+        "actor": "Pamela Bender",
+        "character": "Hannah",
+        "awards": []
+      },
+      {
+        "actor": "Christopher Nelson",
+        "character": "Allison",
+        "awards": [
+          "Golden Globe"
+        ]
+      }
+    ],
+    "director": "Sean Campbell",
+    "duration": 110,
+    "language": "French",
+    "rating": "Rotten Tomatoes",
+   "copies": 5,
+    "available": 5
+  },
+  {
+    "_id": 1013,
+    "title": "Film about",
+    "genre": [
+      "Sport"
+    ],
+    "release_year": 1975,
+    "cast": [
+      {
+        "actor": "John Jones",
+        "character": "Paula",
+        "awards": [
+          "Golden Globe",
+          "Oscar"
+        ]
+      },
+      {
+        "actor": "Andrew Moran",
+        "character": "Janet",
+        "awards": [
+          "Oscar",
+          "None"
+        ]
+      }
+    ],
+    "director": "Alexander Gallagher",
+    "duration": 168,
+    "language": "French",
+    "rating": { IMDb: 8.4 },
+   "copies": 4,
+    "available": 3
+  },
+  {
+    "_id": 1014,
+    "title": "Term security appear",
+    "genre": [
+      "Music",
+      "History"
+    ],
+    "release_year": 2018,
+    "cast": [
+      {
+        "actor": "Richard Sharp",
+        "character": "Nicholas",
+        "awards": [
+          "Emmy"
+        ]
+      },
+      {
+        "actor": "Wendy Trevino",
+        "character": "Melissa",
+        "awards": []
+      },
+      {
+        "actor": "Kristin Johnson",
+        "character": "Rebecca",
+        "awards": []
+      },
+      {
+        "actor": "Elizabeth Brown",
+        "character": "Kathleen",
+        "awards": [
+          "BAFTA"
+        ]
+      }
+    ],
+    "director": "Barbara Cardenas",
+    "duration": 170,
+    "language": "French",
+    "rating": "Rotten Tomatoes",
+   "copies": 5,
+    "available": 5
+  },
+  {
+    "_id": 1015,
+    "title": "As",
+    "genre": [
+      "Fantasy",
+      "History",
+      "Action"
+    ],
+    "release_year": 1993,
+    "cast": [
+      {
+        "actor": "Mary Obrien",
+        "character": "Sandra",
+        "awards": [
+          "Golden Globe"
+        ]
+      },
+      {
+        "actor": "Abigail Young",
+        "character": "Kristin",
+        "awards": [
+          "Emmy"
+        ]
+      }
+    ],
+    "director": "Joshua Delgado",
+    "duration": 133,
+    "language": "French",
+    "rating": "Rotten Tomatoes",
+   "copies": 5,
+    "available": 4
+  },
+  {
+    "_id": 1016,
+    "title": "Anything college",
+    "genre": [
+      "Action",
+      "Musical"
+    ],
+    "release_year": 1974,
+    "cast": [
+      {
+        "actor": "Michelle Mcguire",
+        "character": "Michele",
+        "awards": [
+          "Oscar",
+          "Emmy"
+        ]
+      },
+      {
+        "actor": "Monica Vincent",
+        "character": "Sheena",
+        "awards": []
+      }
+    ],
+    "director": "Neil Shaw",
+    "duration": 84,
+    "language": "English",
+    "rating": "Rotten Tomatoes",
+   "copies": 6,
+    "available": 6
+  },
+  {
+    "_id": 1017,
+    "title": "Sea size local use",
+    "genre": [
+      "Sport",
+      "Drama",
+      "Family"
+    ],
+    "release_year": 2024,
+    "cast": [
+      {
+        "actor": "Corey Rowe",
+        "character": "Elizabeth",
+        "awards": [
+          "Emmy",
+          "Oscar"
+        ]
+      },
+      {
+        "actor": "Michael Faulkner",
+        "character": "Kathleen",
+        "awards": [
+          "Oscar"
+        ]
+      }
+    ],
+    "director": "Brittany Sparks",
+    "duration": 168,
+    "language": "English",
+    "rating": "Rotten Tomatoes",
+   "copies": 5,
+    "available": 4
+  },
+  {
+    "_id": 1018,
+    "title": "Reduce hair",
+    "genre": [
+      "Animation",
+      "Thriller"
+    ],
+    "release_year": 2017,
+    "cast": [
+      {
+        "actor": "Kenneth Nguyen",
+        "character": "Robert",
+        "awards": [
+          "Golden Globe"
+        ]
+      },
+      {
+        "actor": "Amber Mendez",
+        "character": "Jennifer",
+        "awards": [
+          "Golden Globe",
+          "Oscar"
+        ]
+      },
+      {
+        "actor": "Deborah Howard",
+        "character": "Michelle",
+        "awards": [
+          "BAFTA",
+          "Emmy"
+        ]
+      },
+      {
+        "actor": "Amber Gutierrez",
+        "character": "Craig",
+        "awards": [
+          "Emmy"
+        ]
+      }
+    ],
+    "director": "Crystal Wilson",
+    "duration": 137,
+    "language": "Italian",
+    "rating": { IMDb: 8.1 },
+   "copies": 5,
+    "available": 5
+  },
+  {
+    "_id": 1019,
+    "title": "Bed technology",
+    "genre": [
+      "Family"
+    ],
+    "release_year": 2021,
+    "cast": [
+      {
+        "actor": "Lauren Huff",
+        "character": "John",
+        "awards": [
+          "None",
+          "Emmy"
+        ]
+      },
+      {
+        "actor": "Jennifer Smith",
+        "character": "Benjamin",
+        "awards": [
+          "None"
+        ]
+      },
+      {
+        "actor": "Jared Bowman",
+        "character": "Vanessa",
+        "awards": []
+      }
+    ],
+    "director": "Gregory Young",
+    "duration": 112,
+    "language": "French",
+    "rating": "Rotten Tomatoes",
+   "copies": 2,
+    "available": 2
+  },
+  {
+    "_id": 1020,
+    "title": "Grow field everyone",
+    "genre": [
+      "History"
+    ],
+    "release_year": 2010,
+    "cast": [
+      {
+        "actor": "Anne Peterson",
+        "character": "Brittney",
+        "awards": []
+      },
+      {
+        "actor": "Brittany Thomas",
+        "character": "Brittany",
+        "awards": []
+      },
+      {
+        "actor": "Mr. Jordan Mays",
+        "character": "Zachary",
+        "awards": [
+          "BAFTA",
+          "Oscar"
+        ]
+      },
+      {
+        "actor": "Isabella Lewis",
+        "character": "Kevin",
+        "awards": [
+          "Oscar"
+        ]
+      }
+    ],
+    "director": "Robert Hernandez",
+    "duration": 123,
+    "language": "English",
+    "rating": "Rotten Tomatoes",
+    "copies": 2,
+    "available": 2
+  },
+  {
+    "_id": 1021,
+    "title": "Budget base where",
+    "genre": [
+      "Adventure",
+      "Animation"
+    ],
+    "release_year": 2021,
+    "cast": [
+      {
+        "actor": "Christopher Gonzalez",
+        "character": "Anthony",
+        "awards": [
+          "Emmy"
+        ]
+      },
+      {
+        "actor": "Jennifer Watson",
+        "character": "Chloe",
+        "awards": [
+          "Oscar"
+        ]
+      }
+    ],
+    "director": "Kevin Garcia",
+    "duration": 94,
+    "language": "Italian",
+    "rating": { IMDb: 7.8 },
+    "copies": 5,
+    "available": 5
+  },
+  {
+    "_id": 1022,
+    "title": "Media nation",
+    "genre": [
+      "Family",
+      "Crime"
+    ],
+    "release_year": 2017,
+    "cast": [
+      {
+        "actor": "Regina Mitchell",
+        "character": "Stephen",
+        "awards": [
+          "Golden Globe",
+          "Oscar"
+        ]
+      },
+      {
+        "actor": "Pamela Pennington",
+        "character": "Lisa",
+        "awards": [
+          "None",
+          "None"
+        ]
+      }
+    ],
+    "director": "Vanessa Bridges",
+    "duration": 175,
+    "language": "English",
+    "rating": "Rotten Tomatoes",
+    "copies": 2,
+    "available": 2
+  },
+  {
+    "_id": 1023,
+    "title": "Now professor house",
+    "genre": [
+      "Music"
+    ],
+    "release_year": 1995,
+    "cast": [
+      {
+        "actor": "Matthew Rogers",
+        "character": "Amanda",
+        "awards": [
+          "Emmy"
+        ]
+      },
+      {
+        "actor": "April Perez",
+        "character": "Kimberly",
+        "awards": [
+          "Oscar"
+        ]
+      },
+      {
+        "actor": "Matthew Collier",
+        "character": "Benjamin",
+        "awards": []
+      },
+      {
+        "actor": "Rebecca Baker",
+        "character": "Kaitlin",
+        "awards": [
+          "Oscar",
+          "Oscar"
+        ]
+      }
+    ],
+    "director": "Paula Collins",
+    "duration": 101,
+    "language": "French",
+    "rating": "Rotten Tomatoes",
+    "copies": 6,
+    "available": 6
+  },
+  {
+    "_id": 1024,
+    "title": "Nearly investment artist",
+    "genre": [
+      "Sport",
+      "Horror"
+    ],
+    "release_year": 2020,
+    "cast": [
+      {
+        "actor": "Kyle Scott",
+        "character": "John",
+        "awards": [
+          "Oscar"
+        ]
+      },
+      {
+        "actor": "Michelle Allen",
+        "character": "Troy",
+        "awards": [
+          "BAFTA"
+        ]
+      },
+      {
+        "actor": "Dustin Jones",
+        "character": "Eric",
+        "awards": [
+          "Golden Globe"
+        ]
+      }
+    ],
+    "director": "Debbie Gilmore",
+    "duration": 151,
+    "language": "French",
+    "rating": { IMDb: 8.0 },
+    "copies": 5,
+    "available": 5
+  },
+  {
+    "_id": 1025,
+    "title": "Meeting management",
+    "genre": [
+      "Action"
+    ],
+    "release_year": 1979,
+    "cast": [
+      {
+        "actor": "Tammy Moore",
+        "character": "Daniel",
+        "awards": [
+          "Oscar"
+        ]
+      },
+      {
+        "actor": "Susan Taylor",
+        "character": "Matthew",
+        "awards": []
+      },
+      {
+        "actor": "Richard Wilson",
+        "character": "Steven",
+        "awards": [
+          "Emmy"
+        ]
+      }
+    ],
+    "director": "Megan Vazquez",
+    "duration": 142,
+    "language": "English",
+    "rating": { IMDb: 7.8 },
+    "copies": 2,
+    "available": 2
+  },
+{
+    "_id": 1026,
+    "title": "Laugh it want",
+    "genre": [
+      "Adventure",
+      "War"
+    ],
+    "release_year": 1989,
+    "cast": [
+      {
+        "actor": "Jordan Moore",
+        "character": "Megan",
+        "awards": [
+          "Oscar"
+        ]
+      },
+      {
+        "actor": "Lisa Parker",
+        "character": "Taylor",
+        "awards": []
+      },
+      {
+        "actor": "Robert Walsh",
+        "character": "Matthew",
+        "awards": [
+          "BAFTA",
+          "Oscar"
+        ]
+      }
+    ],
+    "director": "Rhonda Lane",
+    "duration": 143,
+    "language": "Italian",
+    "rating": "Rotten Tomatoes",
+    "copies": 5,
+    "available": 5
+  },
+  {
+    "_id": 1027,
+    "title": "Wide common",
+    "genre": [
+      "Musical"
+    ],
+    "release_year": 1985,
+    "cast": [
+      {
+        "actor": "Robert Rogers",
+        "character": "Michael",
+        "awards": [
+          "Emmy",
+          "Golden Globe"
+        ]
+      },
+      {
+        "actor": "Lynn Hayden",
+        "character": "Cheyenne",
+        "awards": []
+      },
+      {
+        "actor": "Jaclyn Ford",
+        "character": "Brooke",
+        "awards": []
+      }
+    ],
+    "director": "Mr. Brian Davis DVM",
+    "duration": 118,
+    "language": "Italian",
+    "rating": "Rotten Tomatoes",
+    "copies": 6,
+    "available": 6
+  },
+  {
+    "_id": 1028,
+    "title": "Couple kind",
+    "genre": [
+      "Comedy",
+      "Musical"
+    ],
+    "release_year": 1974,
+    "cast": [
+      {
+        "actor": "Justin Atkinson",
+        "character": "Richard",
+        "awards": [
+          "Oscar",
+          "BAFTA"
+        ]
+      },
+      {
+        "actor": "Kristine Macdonald",
+        "character": "Tristan",
+        "awards": [
+          "Emmy"
+        ]
+      }
+    ],
+    "director": "Taylor Chan",
+    "duration": 141,
+    "language": "French",
+    "rating": { IMDb: 8.8 },
+    "copies": 6,
+    "available": 6
+  },
+  {
+    "_id": 1029,
+    "title": "Charge catch",
+    "genre": [
+      "Animation"
+    ],
+    "release_year": 1993,
+    "cast": [
+      {
+        "actor": "Amy Raymond",
+        "character": "Lydia",
+        "awards": []
+      },
+      {
+        "actor": "Anthony Walsh",
+        "character": "Melinda",
+        "awards": []
+      },
+      {
+        "actor": "Benjamin Johnson",
+        "character": "Joshua",
+        "awards": [
+          "Oscar"
+        ]
+      }
+    ],
+    "director": "Darryl Clark",
+    "duration": 152,
+    "language": "Italian",
+    "rating": "Rotten Tomatoes",
+    "copies": 2,
+    "available": 2
+  },
+  {
+    "_id": 1030,
+    "title": "Figure bed suffer",
+    "genre": [
+      "Documentary",
+      "Biography"
+    ],
+    "release_year": 1970,
+    "cast": [
+      {
+        "actor": "Kristopher King",
+        "character": "Leslie",
+        "awards": []
+      },
+      {
+        "actor": "Heather Jones",
+        "character": "Ryan",
+        "awards": [
+          "Golden Globe",
+          "Oscar"
+        ]
+      }
+    ],
+    "director": "Samantha Peterson",
+    "duration": 85,
+    "language": "Italian",
+    "rating": { IMDb: 8.0 },
+    "copies": 5,
+    "available": 5
+  },
+  {
+    "_id": 1031,
+    "title": "Economic everybody bill",
+    "genre": [
+      "Musical",
+      "Documentary",
+      "Animation"
+    ],
+    "release_year": 2013,
+    "cast": [
+      {
+        "actor": "Kimberly Valdez",
+        "character": "Jane",
+        "awards": []
+      },
+      {
+        "actor": "Ashley Morgan",
+        "character": "Matthew",
+        "awards": [
+          "Oscar",
+          "Emmy"
+        ]
+      },
+      {
+        "actor": "Jane Hendricks",
+        "character": "Aaron",
+        "awards": [
+          "Golden Globe",
+          "Oscar"
+        ]
+      }
+    ],
+    "director": "Bailey Collins",
+    "duration": 108,
+    "language": "Italian",
+    "rating": { IMDb: 7.7 },
+    "copies": 2,
+    "available": 2
+  },
+  {
+    "_id": 1032,
+    "title": "Democratic order fly",
+    "genre": [
+      "Mystery"
+    ],
+    "release_year": 1990,
+    "cast": [
+      {
+        "actor": "Cynthia Hoffman DDS",
+        "character": "Adam",
+        "awards": []
+      },
+      {
+        "actor": "Mr. Jeffrey Pierce",
+        "character": "John",
+        "awards": []
+      },
+      {
+        "actor": "Sierra Smith",
+        "character": "Benjamin",
+        "awards": []
+      }
+    ],
+    "director": "Andrew Rodriguez",
+    "duration": 92,
+    "language": "Italian",
+    "rating": "Rotten Tomatoes",
+    "copies": 2,
+    "available": 1
+  },
+  {
+    "_id": 1033,
+    "title": "Else",
+    "genre": [
+      "Animation"
+    ],
+    "release_year": 1989,
+    "cast": [
+      {
+        "actor": "Danielle Moore",
+        "character": "Jeremy",
+        "awards": [
+          "Oscar",
+          "Oscar"
+        ]
+      },
+      {
+        "actor": "Jonathan Davidson",
+        "character": "Marissa",
+        "awards": [
+          "BAFTA"
+        ]
+      },
+      {
+        "actor": "Mrs. Robin Guerrero MD",
+        "character": "Brian",
+        "awards": []
+      },
+      {
+        "actor": "Brian Ferguson",
+        "character": "Katelyn",
+        "awards": [
+          "BAFTA"
+        ]
+      }
+    ],
+    "director": "Janet Williams",
+    "duration": 162,
+    "language": "French",
+    "rating": { IMDb: 8.1 },
+    "copies": 8,
+    "available": 8
+  },
+  {
+    "_id": 1034,
+    "title": "During environment spend",
+    "genre": [
+      "War",
+      "Adventure",
+      "History"
+    ],
+    "release_year": 1974,
+    "cast": [
+      {
+        "actor": "Laura Robinson",
+        "character": "Jonathon",
+        "awards": [
+          "None",
+          "Oscar"
+        ]
+      },
+      {
+        "actor": "Brenda Krueger",
+        "character": "Michael",
+        "awards": [
+          "None",
+          "Oscar"
+        ]
+      },
+      {
+        "actor": "Chase Willis",
+        "character": "Robert",
+        "awards": []
+      },
+      {
+        "actor": "Louis Edwards",
+        "character": "David",
+        "awards": []
+      }
+    ],
+    "director": "Tabitha Thomas",
+    "duration": 175,
+    "language": "French",
+    "rating": "Rotten Tomatoes",
+    "copies": 2,
+    "available": 2
+  },
+  {
+    "_id": 1035,
+    "title": "Believe need",
+    "genre": [
+      "Comedy",
+      "Romance",
+      "Horror"
+    ],
+    "release_year": 2013,
+    "cast": [
+      {
+        "actor": "Thomas Flores",
+        "character": "Eddie",
+        "awards": [
+          "BAFTA",
+          "BAFTA"
+        ]
+      },
+      {
+        "actor": "Christina Pena",
+        "character": "Mark",
+        "awards": [
+          "Emmy"
+        ]
+      },
+      {
+        "actor": "Bradley Mason",
+        "character": "Ronald",
+        "awards": []
+      }
+    ],
+    "director": "Jamie Reynolds",
+    "duration": 104,
+    "language": "Italian",
+    "rating": { IMDb: 8.2 },
+    "copies": 5,
+    "available": 5
+  },
+  {
+    "_id": 1036,
+    "title": "Heart most",
+    "genre": [
+      "Animation",
+      "Music"
+    ],
+    "release_year": 1990,
+    "cast": [
+      {
+        "actor": "Kevin Adams",
+        "character": "Evelyn",
+        "awards": []
+      },
+      {
+        "actor": "Mr. Jason Johnson",
+        "character": "Timothy",
+        "awards": [
+          "Oscar"
+        ]
+      },
+      {
+        "actor": "Thomas Dalton",
+        "character": "Matthew",
+        "awards": [
+          "Golden Globe",
+          "None"
+        ]
+      }
+    ],
+    "director": "Ruben Larsen",
+    "duration": 161,
+    "language": "English",
+    "rating": "Rotten Tomatoes",
+    "copies": 2,
+    "available": 2
+  },
+  {
+    "_id": 1037,
+    "title": "Build",
+    "genre": [
+      "War",
+      "Sport"
+    ],
+    "release_year": 2016,
+    "cast": [
+      {
+        "actor": "Rebecca Marshall",
+        "character": "Vincent",
+        "awards": [
+          "Emmy",
+          "BAFTA"
+        ]
+      },
+      {
+        "actor": "Thomas Gregory",
+        "character": "Gary",
+        "awards": [
+          "Emmy",
+          "Golden Globe"
+        ]
+      },
+      {
+        "actor": "Briana Carey",
+        "character": "Katherine",
+        "awards": []
+      },
+      {
+        "actor": "Kevin Marshall",
+        "character": "Nathaniel",
+        "awards": [
+          "Oscar"
+        ]
+      }
+    ],
+    "director": "Tiffany Johnson",
+    "duration": 111,
+    "language": "English",
+    "rating": { IMDb: 8.3 },
+    "copies": 2,
+    "available": 1
+  },
+  {
+    "_id": 1038,
+    "title": "Sort serve",
+    "genre": [
+      "Mystery"
+    ],
+    "release_year": 1991,
+    "cast": [
+      {
+        "actor": "Holly Velez",
+        "character": "Katie",
+        "awards": [
+          "Oscar",
+          "None"
+        ]
+      },
+      {
+        "actor": "Christopher Phillips",
+        "character": "Cynthia",
+        "awards": []
+      },
+      {
+        "actor": "William Allen",
+        "character": "Lisa",
+        "awards": [
+          "None",
+          "Golden Globe"
+        ]
+      },
+      {
+        "actor": "Patricia Johnson",
+        "character": "Dustin",
+        "awards": [
+          "Oscar",
+          "BAFTA"
+        ]
+      }
+    ],
+    "director": "Tamara Coleman",
+    "duration": 153,
+    "language": "English",
+    "rating": "Rotten Tomatoes",
+    "copies": 6,
+    "available": 5
+  },
+  {
+    "_id": 1039,
+    "title": "Page arm",
+    "genre": [
+      "Musical",
+      "Mystery",
+      "Biography"
+    ],
+    "release_year": 2011,
+    "cast": [
+      {
+        "actor": "Cassidy Huff",
+        "character": "Christina",
+        "awards": []
+      },
+      {
+        "actor": "Nancy Jensen",
+        "character": "Kelly",
+        "awards": [
+          "Golden Globe"
+        ]
+      },
+      {
+        "actor": "Daisy Cohen",
+        "character": "Patricia",
+        "awards": []
+      }
+    ],
+    "director": "Ashley Carey",
+    "duration": 126,
+    "language": "English",
+    "rating": { IMDb: 8.3 },
+    "copies": 2,
+    "available": 1
+  },
+  {
+    "_id": 1040,
+    "title": "President thing ever",
+    "genre": [
+      "Thriller",
+      "Adventure",
+      "Music"
+    ],
+    "release_year": 1989,
+    "cast": [
+      {
+        "actor": "Stephen Mayer",
+        "character": "Isabella",
+        "awards": []
+      },
+      {
+        "actor": "Alexandra Miller",
+        "character": "Kelly",
+        "awards": [
+          "None"
+        ]
+      },
+      {
+        "actor": "Mary Vaughn",
+        "character": "Kirsten",
+        "awards": []
+      }
+    ],
+    "director": "Sarah Fowler",
+    "duration": 179,
+    "language": "French",
+    "rating": "Rotten Tomatoes",
+    "copies": 4,
+    "available": 1
+  },
+  {
+    "_id": 1041,
+    "title": "Alone treatment enter",
+    "genre": [
+      "Thriller"
+    ],
+    "release_year": 1972,
+    "cast": [
+      {
+        "actor": "Scott Sanders",
+        "character": "Molly",
+        "awards": [
+          "Oscar",
+          "Emmy"
+        ]
+      },
+      {
+        "actor": "David Gamble",
+        "character": "Timothy",
+        "awards": []
+      },
+      {
+        "actor": "Mr. Wesley Hayden",
+        "character": "Kayla",
+        "awards": [
+          "None"
+        ]
+      },
+      {
+        "actor": "Alexander Gaines",
+        "character": "Kelly",
+        "awards": []
+      }
+    ],
+    "director": "Dr. Sue Watson",
+    "duration": 97,
+    "language": "English",
+    "rating": "Rotten Tomatoes",
+    "copies": 2,
+    "available": 2
+  },
+  {
+    "_id": 1042,
+    "title": "Do world same even",
+    "genre": [
+      "Sport"
+    ],
+    "release_year": 2025,
+    "cast": [
+      {
+        "actor": "Christopher Edwards",
+        "character": "Chad",
+        "awards": [
+          "BAFTA",
+          "Oscar"
+        ]
+      },
+      {
+        "actor": "Theresa Gordon",
+        "character": "Blake",
+        "awards": [
+          "Oscar",
+          "BAFTA"
+        ]
+      },
+      {
+        "actor": "Perry Allen",
+        "character": "Jasmine",
+        "awards": [
+          "BAFTA",
+          "Oscar"
+        ]
+      }
+    ],
+    "director": "Rickey Porter MD",
+    "duration": 127,
+    "language": "Italian",
+    "rating": { IMDb: 8.3 },
+    "copies": 5,
+    "available": 5
+  },
+  {
+    "_id": 1043,
+    "title": "Late Congress something",
+    "genre": [
+      "Fantasy",
+      "History"
+    ],
+    "release_year": 1988,
+    "cast": [
+      {
+        "actor": "Micheal Case",
+        "character": "Alan",
+        "awards": [
+          "None"
+        ]
+      },
+      {
+        "actor": "Kathryn Torres",
+        "character": "Timothy",
+        "awards": [
+          "Oscar",
+          "None"
+        ]
+      },
+      {
+        "actor": "Paul Page",
+        "character": "Kelly",
+        "awards": [
+          "Golden Globe"
+        ]
+      }
+    ],
+    "director": "Richard Robinson",
+    "duration": 99,
+    "language": "Italian",
+    "rating": { IMDb: 8.4 },
+    "copies": 5,
+    "available": 5
+  },
+  {
+    "_id": 1044,
+    "title": "Citizen real ago",
+    "genre": [
+      "Drama"
+    ],
+    "release_year": 2015,
+    "cast": [
+      {
+        "actor": "Monica Morales",
+        "character": "Austin",
+        "awards": [
+          "Golden Globe"
+        ]
+      },
+      {
+        "actor": "Sue Welch",
+        "character": "Laurie",
+        "awards": []
+      }
+    ],
+    "director": "Amanda Vasquez",
+    "duration": 175,
+    "language": "English",
+    "rating": "Rotten Tomatoes"
+  },
+  {
+    "_id": 1045,
+    "title": "Six student",
+    "genre": [
+      "History",
+      "Thriller"
+    ],
+    "release_year": 2007,
+    "cast": [
+      {
+        "actor": "Hector Black",
+        "character": "Joseph",
+        "awards": [
+          "Oscar",
+          "Golden Globe"
+        ]
+      },
+      {
+        "actor": "Jack Jackson",
+        "character": "Shane",
+        "awards": [
+          "BAFTA",
+          "BAFTA"
+        ]
+      }
+    ],
+    "director": "Heather Mitchell",
+    "duration": 145,
+    "language": "English",
+    "rating": { IMDb: 8.8 },
+    "copies": 5,
+    "available": 5
+  },
+  {
+    "_id": 1046,
+    "title": "Election choose answer",
+    "genre": [
+      "Documentary"
+    ],
+    "release_year": 2000,
+    "cast": [
+      {
+        "actor": "Nicole Smith",
+        "character": "Tracy",
+        "awards": [
+          "Oscar"
+        ]
+      },
+      {
+        "actor": "Ryan Perez",
+        "character": "Heather",
+        "awards": []
+      },
+      {
+        "actor": "Dominique Johnson",
+        "character": "Kristi",
+        "awards": [
+          "Emmy",
+          "None"
+        ]
+      },
+      {
+        "actor": "Lauren Diaz",
+        "character": "Laura",
+        "awards": []
+      }
+    ],
+    "director": "Timothy Cook",
+    "duration": 172,
+    "language": "English",
+    "rating": "Rotten Tomatoes",
+    "copies": 5,
+    "available": 5
+  },
+  {
+    "_id": 1047,
+    "title": "Body",
+    "genre": [
+      "Biography",
+      "Comedy",
+      "Mystery"
+    ],
+    "release_year": 1991,
+    "cast": [
+      {
+        "actor": "Michael Lewis",
+        "character": "Darryl",
+        "awards": []
+      },
+      {
+        "actor": "Jessica Nelson",
+        "character": "Tyler",
+        "awards": [
+          "BAFTA"
+        ]
+      }
+    ],
+    "director": "Michael Espinoza",
+    "duration": 81,
+    "language": "English",
+    "rating": "Rotten Tomatoes",
+    "copies": 6,
+    "available": 6
+  },
+  {
+    "_id": 1048,
+    "title": "System set cut",
+    "genre": [
+      "War",
+      "Drama",
+      "History"
+    ],
+    "release_year": 1987,
+    "cast": [
+      {
+        "actor": "Maria Costa",
+        "character": "Adriana",
+        "awards": [
+          "Golden Globe"
+        ]
+      },
+      {
+        "actor": "William King",
+        "character": "Aaron",
+        "awards": [
+          "BAFTA",
+          "None"
+        ]
+      },
+      {
+        "actor": "Christopher Riggs",
+        "character": "Amy",
+        "awards": []
+      },
+      {
+        "actor": "Christopher Herman",
+        "character": "Cory",
+        "awards": [
+          "None"
+        ]
+      }
+    ],
+    "director": "Robert Vega",
+    "duration": 140,
+    "language": "French",
+    "rating": { IMDb: 8.4 },
+    "copies": 5,
+    "available": 5
+  },
+  {
+    "_id": 1049,
+    "title": "Street organization",
+    "genre": [
+      "Adventure",
+      "War"
+    ],
+    "release_year": 1973,
+    "cast": [
+      {
+        "actor": "Joshua Adams",
+        "character": "Jacqueline",
+        "awards": []
+      },
+      {
+        "actor": "Alexandra Reed",
+        "character": "Carly",
+        "awards": []
+      }
+    ],
+    "director": "Dr. Matthew Washington",
+    "duration": 146,
+    "language": "French",
+    "rating": { IMDb: 7.7 },
+    "copies": 5,
+    "available": 5
+  },
+  {
+    "_id": 1050,
+    "title": "Record open",
+    "genre": [
+      "Crime",
+      "Music",
+      "Western"
+    ],
+    "release_year": 1980,
+    "cast": [
+      {
+        "actor": "Leslie Armstrong",
+        "character": "Courtney",
+        "awards": [
+          "Golden Globe"
+        ]
+      },
+      {
+        "actor": "Ricky Bauer",
+        "character": "Christopher",
+        "awards": []
+      },
+      {
+        "actor": "James Phillips",
+        "character": "Brian",
+        "awards": []
+      }
+    ],
+    "director": "Hannah Booth",
+    "duration": 162,
+    "language": "English",
+    "rating": "Rotten Tomatoes",
+    "copies": 5,
+    "available": 5
+  } 
+])
+
+
