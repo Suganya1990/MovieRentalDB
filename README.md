@@ -38,7 +38,7 @@ https://www.mongodb.com/try/download/community
    ```
 3. Switch to your database (this will create it):
    ```js
-   use movie_rental_database
+   use movie_rental
    ```
 4. (Optional) Verify:
    ```js
@@ -47,20 +47,6 @@ https://www.mongodb.com/try/download/community
 
 ---
 
-## 📦 Collection Creation
-
-1. Open terminal or PowerShell  
-2. Start MongoDB shell:
-   ```bash
-   mongosh
-   ```
-3. Switch to your DB:
-   ```bash
-   use movie_rental_database
-   ```
-4. Copy and paste the contents of `dbCollectionScript.txt` into the shell to create all collections.
-
----
 
 ## 🧾 Data Insertion Scripts
 
@@ -69,60 +55,43 @@ Repeat the following steps for each data file:
 ### ➕ Insert Customers
 ```bash
 mongosh
-use movie_rental_database
+use movie_rental
 ```
-Paste contents from `customerScript.txt`
+Paste contents from `customers.txt`
 
 ---
 
 ### ➕ Insert Movies
 ```bash
 mongosh
-use movie_rental_database
+use movie_rental
 ```
-Paste contents from `movieScript.txt`
+Paste contents from `movies.txt`
 
 ---
 
 ### ➕ Insert Employees
 ```bash
 mongosh
-use movie_rental_database
+use movie_rental
 ```
-Paste contents from `employeeScript.txt`
+Paste contents from `employees.txt`
 
 ---
 
 ### ➕ Insert Rentals
 ```bash
 mongosh
-use movie_rental_database
+use movie_rental
 ```
-Paste contents from `rentalScript.txt`
+Paste contents from `rentals.txt`
 
 ---
 
-### ➕ Insert Orders
-```bash
-mongosh
-use movie_rental_database
-```
-Paste contents from `orderScript.txt`
-
----
-
-### ➕ Insert Payments
-```bash
-mongosh
-use movie_rental_database
-```
-Paste contents from `paymentScript.txt`
-
----
 
 ## 🔍 Sample Querying
 
-You can find examples of update, find, and aggregate queries in `queryExamples.txt`.  
+You can find examples of update, find, and aggregate queries in `queries.txt`.  
 Example:
 ```js
 // Find all customers over age 30
